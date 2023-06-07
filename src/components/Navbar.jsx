@@ -24,7 +24,6 @@ function Navbar() {
             {/* menu icon */}
             <div onClick={handleClick} className='block md:hidden '>
                 {closeNav ?  <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
-                
             </div>
 
             <div className = {closeNav ? 'fixed left-[-100%]'  : 'fixed left-0 top-0 w-60 h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'}>
