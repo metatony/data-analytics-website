@@ -3,21 +3,21 @@ import Typed from 'react-typed';
 
 function Hero() {
     return (
-        <div className='text-white'>
+        <div className='text-white bg-[url("src/assets/richard-horvath-_nWaeTF6qo0-unsplash.jpg")] bg-cover'>
             <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center px-4'>
-                <p className='text-[#00df9a] font-bold p-2'>GROWING WITH DATA ANALYTICS</p>
-                <h1 className='md:text-7xl sm:text-6xl font-bold text-4xl md:py-6'>Grow with data</h1>
+                <p className='text-white font-semibold p-2'>GROWING WITH DATA ANALYTICS</p>
+                <h1 className='md:text-6xl sm:text-5xl font-semibold text-3xl md:py-6'>Grow with data</h1>
                 <div className='flex justify-center items-center'>
-                    <p className='md:text-5xl sm:text-4xl text-xl font-semibold'>Fast, flexible financing for </p>
+                    <p className='md:text-4xl sm:text-3xl text-xl font-semibold'>Fast, flexible financing for </p>
                     <Typed
-                        className='md:text-5xl sm:text-4xl text-xl font-semibold md:pl-4 pl-2'
+                        className='md:text-4xl sm:text-3xl text-xl font-semibold md:pl-4 pl-2'
                         
                         strings={['BTB', 'BTC', 'SASS']}
                         typeSpeed={120} backspeed={140}
                         loop />
                 </div>
-                <p className='md:text-2xl text-xl font-semibold text-gray-500 mt-5'>Monitor your data analytics to increase revenue for BTB, BTC & SASS platforms</p>
-                <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+                {/* <p className='md:text-xl text-xl font-medium text-pink-  mt-5'>Monitor your data analytics to increase revenue for BTB, BTC & SASS platforms</p> */}
+                <button className='bg-[#6C63FF] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Get Started</button>
             </div>
 
         </div>
